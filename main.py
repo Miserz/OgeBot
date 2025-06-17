@@ -17,7 +17,7 @@ TOKEN = '7962069892:AAEabhKCg6wFXNDvv1ou0tLway7yrRR3xUc'
 # URL страницы с формой ОГЭ
 URL = 'https://reports.43edu.ru/gia/p_stat9.php'
 # URL баннера и стикера (должны быть доступны по HTTPS)
-BANNER_URL = 'https://raw.githubusercontent.com/Miserz/OgeBot/9a59b0019b33c1c3bf0a66d693458c0ddac2a43b/banner.png'
+BANNER_URL = 'https://raw.githubusercontent.com/Miserz/OgeBot/refs/heads/main/img/banner.png'
 WELCOME_STICKER = 'CAACAgIAAxkBAAEH7Z1j4OZVQWQK1uvjZl5rRT6W6L2zvgACZgADVp29CjoED0H-nNSDZiQE'
 
 # Этапы разговора
