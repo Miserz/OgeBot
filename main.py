@@ -15,6 +15,7 @@ from telegram.ext import (
 
 # Токен вашего Telegram-бота
 TOKEN = os.getenv("API_KEY")
+print(TOKEN)
 # URL страницы с формой ОГЭ
 URL = 'https://reports.43edu.ru/gia/p_stat9.php'
 # URL баннера и стикера (должны быть доступны по HTTPS)
