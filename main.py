@@ -1,4 +1,5 @@
 import requests
+import os
 from bs4 import BeautifulSoup
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup, InputMediaPhoto
 from telegram.ext import (
@@ -13,7 +14,7 @@ from telegram.ext import (
 )
 
 # Токен вашего Telegram-бота
-TOKEN = '7962069892:AAEabhKCg6wFXNDvv1ou0tLway7yrRR3xUc'
+TOKEN = os.getenv("API_KEY")
 # URL страницы с формой ОГЭ
 URL = 'https://reports.43edu.ru/gia/p_stat9.php'
 # URL баннера и стикера (должны быть доступны по HTTPS)
